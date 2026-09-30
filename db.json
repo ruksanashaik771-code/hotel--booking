@@ -1,0 +1,332 @@
+{
+  "hotels": [
+    {
+      "id": "1",
+      "name": "The Grand Palace",
+      "location": "Hyderabad",
+      "rating": 4.8,
+      "price": 4500,
+      "image": "grand-palace.jpg",
+      "amenities": [
+        "Free WiFi",
+        "Swimming Pool",
+        "Restaurant",
+        "Parking",
+        "Room Service"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Royal Orchid Suites",
+      "location": "Bengaluru",
+      "rating": 4.6,
+      "price": 3800,
+      "image": "royal-orchid.jpg",
+      "amenities": [
+        "Free WiFi",
+        "Breakfast",
+        "Gym",
+        "Parking",
+        "Air Conditioning"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Ocean Breeze Resort",
+      "location": "Goa",
+      "rating": 4.7,
+      "price": 5200,
+      "image": "ocean-breeze.jpg",
+      "amenities": [
+        "Beach Access",
+        "Free WiFi",
+        "Swimming Pool",
+        "Restaurant",
+        "Spa"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Lakeview Residency",
+      "location": "Udaipur",
+      "rating": 4.5,
+      "price": 3200,
+      "image": "lakeview.jpg",
+      "amenities": [
+        "Free WiFi",
+        "Lake View",
+        "Restaurant",
+        "Parking",
+        "Room Service"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Mountain View Retreat",
+      "location": "Manali",
+      "rating": 4.4,
+      "price": 2900,
+      "image": "mountain-view.jpg",
+      "amenities": [
+        "Free WiFi",
+        "Mountain View",
+        "Restaurant",
+        "Bonfire",
+        "Parking"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Sunrise Grand Hotel",
+      "location": "Chennai",
+      "rating": 4.3,
+      "price": 2700,
+      "image": "sunrise-grand.jpg",
+      "amenities": [
+        "Free WiFi",
+        "Breakfast",
+        "Swimming Pool",
+        "Parking",
+        "Air Conditioning"
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": "101",
+      "hotelId": 1,
+      "roomNumber": "101",
+      "roomType": "Deluxe Room",
+      "price": 4500,
+      "status": "Available"
+    },
+    {
+      "id": "102",
+      "hotelId": 1,
+      "roomNumber": "102",
+      "roomType": "Premium Room",
+      "price": 5500,
+      "status": "Available"
+    },
+    {
+      "id": "103",
+      "hotelId": 1,
+      "roomNumber": "103",
+      "roomType": "Suite",
+      "price": 7500,
+      "status": "Available"
+    },
+    {
+      "id": "201",
+      "hotelId": 2,
+      "roomNumber": "201",
+      "roomType": "Standard Room",
+      "price": 3800,
+      "status": "Available"
+    },
+    {
+      "id": "202",
+      "hotelId": 2,
+      "roomNumber": "202",
+      "roomType": "Deluxe Room",
+      "price": 4800,
+      "status": "Available"
+    },
+    {
+      "id": "203",
+      "hotelId": 2,
+      "roomNumber": "203",
+      "roomType": "Suite",
+      "price": 6500,
+      "status": "Available"
+    },
+    {
+      "id": "301",
+      "hotelId": 3,
+      "roomNumber": "301",
+      "roomType": "Garden Room",
+      "price": 5200,
+      "status": "Available"
+    },
+    {
+      "id": "302",
+      "hotelId": 3,
+      "roomNumber": "302",
+      "roomType": "Sea View Room",
+      "price": 6800,
+      "status": "Available"
+    },
+    {
+      "id": "303",
+      "hotelId": 3,
+      "roomNumber": "303",
+      "roomType": "Luxury Suite",
+      "price": 9000,
+      "status": "Available"
+    },
+    {
+      "id": "401",
+      "hotelId": 4,
+      "roomNumber": "401",
+      "roomType": "Standard Room",
+      "price": 3200,
+      "status": "Available"
+    },
+    {
+      "id": "402",
+      "hotelId": 4,
+      "roomNumber": "402",
+      "roomType": "Lake View Room",
+      "price": 4500,
+      "status": "Available"
+    },
+    {
+      "id": "403",
+      "hotelId": 4,
+      "roomNumber": "403",
+      "roomType": "Royal Suite",
+      "price": 6500,
+      "status": "Available"
+    },
+    {
+      "id": "501",
+      "hotelId": 5,
+      "roomNumber": "501",
+      "roomType": "Standard Room",
+      "price": 2900,
+      "status": "Available"
+    },
+    {
+      "id": "502",
+      "hotelId": 5,
+      "roomNumber": "502",
+      "roomType": "Mountain View Room",
+      "price": 4200,
+      "status": "Available"
+    },
+    {
+      "id": "503",
+      "hotelId": 5,
+      "roomNumber": "503",
+      "roomType": "Luxury Suite",
+      "price": 6000,
+      "status": "Available"
+    },
+    {
+      "id": "601",
+      "hotelId": 6,
+      "roomNumber": "601",
+      "roomType": "Standard Room",
+      "price": 2700,
+      "status": "Available"
+    },
+    {
+      "id": "602",
+      "hotelId": 6,
+      "roomNumber": "602",
+      "roomType": "Deluxe Room",
+      "price": 3600,
+      "status": "Available"
+    },
+    {
+      "id": "603",
+      "hotelId": 6,
+      "roomNumber": "603",
+      "roomType": "Family Suite",
+      "price": 5200,
+      "status": "Available"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Rani",
+      "email": "rani@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Raju",
+      "email": "raju@example.com"
+    }
+  ],
+  "bookings": [
+    {
+      "userId": 1,
+      "hotelId": 1,
+      "roomId": 103,
+      "checkIn": "2026-09-25",
+      "checkOut": "2026-09-27",
+      "guests": 1,
+      "totalAmount": 15000,
+      "status": "Cancelled",
+      "id": "H4Toadlc9B4"
+    },
+    {
+      "userId": 1,
+      "hotelId": 2,
+      "roomId": 201,
+      "checkIn": "2026-09-25",
+      "checkOut": "2026-09-26",
+      "guests": 1,
+      "totalAmount": 3800,
+      "status": "Confirmed",
+      "id": "yWm6RDIdVlo"
+    },
+    {
+      "userId": 1,
+      "hotelId": 2,
+      "roomId": 201,
+      "checkIn": "2026-10-02",
+      "checkOut": "2026-10-11",
+      "guests": 1,
+      "totalAmount": 34200,
+      "status": "Confirmed",
+      "id": "Jopofa2JXKE"
+    },
+    {
+      "userId": 1,
+      "hotelId": 2,
+      "roomId": 201,
+      "checkIn": "2026-09-20",
+      "checkOut": "2026-09-22",
+      "guests": 1,
+      "totalAmount": 7600,
+      "status": "Confirmed",
+      "id": "O3hiudKRLuw"
+    },
+    {
+      "userId": 1,
+      "hotelId": 2,
+      "roomId": 201,
+      "checkIn": "2026-09-12",
+      "checkOut": "2026-09-27",
+      "guests": 1,
+      "totalAmount": 57000,
+      "status": "Confirmed",
+      "id": "L6eoXlty5GU"
+    },
+    {
+      "userId": 1,
+      "hotelId": 2,
+      "roomId": 201,
+      "checkIn": "2026-09-12",
+      "checkOut": "2026-09-26",
+      "guests": 1,
+      "totalAmount": 53200,
+      "status": "Confirmed",
+      "id": "VYC3OtJHFQA"
+    },
+    {
+      "userId": 1,
+      "hotelId": 1,
+      "roomId": 101,
+      "checkIn": "2026-09-19",
+      "checkOut": "2026-09-23",
+      "guests": 1,
+      "totalAmount": 18000,
+      "status": "Confirmed",
+      "id": "6AkDKCbVd0s"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

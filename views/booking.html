@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Room</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+    <div class="nav-brand">
+        <h1>StayEase</h1>
+    </div>
+
+    <nav>
+        <a href="index.html">Hotels</a>
+        <a href="bookings.html">My Bookings</a>
+    </nav>
+</header>
+
+    <main>
+
+    <div class="booking-page">
+
+        <div class="booking-header">
+            <h2>Complete Your Booking</h2>
+            <p>Enter your stay details and confirm your reservation.</p>
+        </div>
+
+        <div class="booking-layout">
+
+            <!-- Booking Summary -->
+            <section class="booking-card">
+
+                <h3>Selected Room</h3>
+
+                <div id="selected-room">
+                    <p>Loading room details...</p>
+                </div>
+
+            </section>
+
+
+            <!-- Booking Form -->
+            <section class="booking-card">
+
+                <h3>Stay Details</h3>
+
+                <form id="booking-form">
+
+                    <div class="form-group">
+                        <label for="check-in">
+                            Check-in
+                        </label>
+
+                        <input
+                            type="date"
+                            id="check-in"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="check-out">
+                            Check-out
+                        </label>
+
+                        <input
+                            type="date"
+                            id="check-out"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="guests">
+                            Number of Guests
+                        </label>
+
+                        <input
+                            type="number"
+                            id="guests"
+                            min="1"
+                            value="1"
+                            required
+                        >
+                    </div>
+
+
+                    <!-- Price Summary -->
+
+                    <div class="price-summary">
+
+                        <div>
+                            <span>Price per night</span>
+                            <strong id="price-per-night">
+                                ₹0
+                            </strong>
+                        </div>
+
+                        <div>
+                            <span>Number of nights</span>
+                            <strong id="number-of-nights">
+                                0
+                            </strong>
+                        </div>
+
+                        <hr>
+
+                        <div class="total-row">
+                            <span>Total Amount</span>
+
+                            <strong id="total-amount">
+                                ₹0
+                            </strong>
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="confirm-booking-btn"
+                    >
+                        Confirm Booking
+                    </button>
+
+                    <p id="booking-message"></p>
+
+                </form>
+
+            </section>
+
+        </div>
+
+    </div>
+
+</main>
+
+    <script type="module" src="../js/booking.js"></script>
+
+</body>
+</html>
